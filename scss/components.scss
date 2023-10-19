@@ -1,0 +1,320 @@
+.background-props {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.tour-component {
+    height: 180px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .info-holder {
+        color: black;
+        // font-size: small;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.tour-component1 {
+    height: 380px;
+    width: 980px;
+    // background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .info-holder {
+        color: black;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+
+    }
+
+}
+
+.tour-component2 {
+    height: 150px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    .info-holder2 {
+        color: white;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.tour-component4 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    
+
+    .info-holder {
+        color: white;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.tour-component6 {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    
+
+    .info-holder {
+        color: white;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.dispatch-event {
+    width: 174px;
+
+    .date-time {
+        text-transform: uppercase;
+        color: gray;
+        font-size: 10px;
+        margin-bottom: 6px;
+
+    }
+
+    .dispatch-image {
+        width: 950px;
+        height: 280px;
+        overflow: hidden;
+        margin-right: 21px;
+
+        img {
+          width: 100%;
+        }
+    }
+
+    .title-bubble {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            h5 {
+                font-size: 11px;
+                margin-bottom: 4px;
+                color: black;
+            }
+        }
+
+        .bubble {
+            position: relative;
+            height: 70px;
+            width: 80px;
+            background-color: #EE4367;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 4px;
+        }
+
+    }
+
+    .title-bubble2 {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-between;
+
+        .title2 {
+            h5 {
+                font-size: 11px;
+                margin-bottom: 4px;
+                color: white;
+            }
+        }
+
+        .bubble {
+            position: relative;
+            height: 70px;
+            width: 80px;
+            // background-color: #EE4367;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 4px;
+        }
+
+    }
+
+    .title-bubble3 {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .title3 {
+            h5 {
+                font-size: 11px;
+                margin-bottom: 4px;
+                color: black;
+            }
+        }
+
+        .bubble3 {
+            position: relative;
+            height: 155px;
+            width: 155px;
+            background-color: #EE4367;
+            color: white;
+            text-align: center;
+            padding-top: 4px;
+
+            p {
+                font-size: larger;
+            }
+        }
+
+    }
+}
+
+.dispatch-event2 {
+    width: 174px;
+
+    .date-time {
+        text-transform: uppercase;
+        color: gray;
+        font-size: 10px;
+        margin-bottom: 6px;
+
+    }
+
+    .dispatch-image {
+        img {
+            width: 100%;
+        }
+    }
+
+    .title-bubble {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            h5 {
+                font-size: 11px;
+                margin-bottom: 4px;
+                color: black;
+            }
+
+            p {
+                font-size: small;
+            }
+
+            .red {
+                color:#EE4367;
+            }
+        }
+
+        .bubble {
+            position: relative;
+            height: 40px;
+            width: 40px;
+            background-color: #EE4367;
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            padding-top: 4px;
+
+            .triangle {
+                position: absolute;
+                bottom: -8px;
+                left: 5px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 8px 8px 0 0;
+                border-color: gray
+                transparent transparent
+                transparent;
+            }
+        }
+
+    }
+}
+
+.pic-1 {
+    background-image: url(../images/Platinum.jpg.crdownload);
+}
+
+.pic-2 {
+    background-image: url(../images/galaxy.webp);
+}
+
+.pic-3 {
+    background-image: url(../images/ahit.jpg.crdownload);
+}
+
+.pic-4 {
+    background-image: url(../images/expansion.jpg.crdownload);
+}
+
+.pic-5 {
+    background-image: url(../images/xeno2.jpg.crdownload);
+}
+
+.pic-6 {
+    background-image: url(../images/xeno3.jpg.crdownload);
+}
+
+.pic-7 {
+    background-image: url(../images/splatoon3.jpg.crdownload);
+}
+
+.pic-8 {
+    background-image: url(../images/pikmin2.jpg);
+}
+
+.pic-9 {
+    background-image: url(../images/paper.jpg);
+}
+
+.pic-10 {
+    background-image: url(../images/black2.jpg);
+}
+
+.pic-11 {
+    background-image: url(../images/Reggie.png);
+}
